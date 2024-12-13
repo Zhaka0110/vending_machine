@@ -1,0 +1,10 @@
+git checkout -b home_work_25
+git add .
+git commit -m "Added MoneyAcceptor interface and implemented CoinAcceptor"
+git commit -m "Implemented CardAcceptor for card payments"
+git commit -m "Integrated MoneyAcceptor in AppRunner"
+git push origin home_work_25
+git checkout master
+git merge home_work_25
+git push origin master
+
